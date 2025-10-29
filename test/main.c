@@ -7,6 +7,6 @@ int foo(){
 
 int main(){
     int secret = foo();
-    printf("%d", secret);
+    printf("%d\n", secret);
     return 0;
 }
