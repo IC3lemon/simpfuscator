@@ -14,6 +14,7 @@ python3 obfuscator.py <input_binary_path> <output_binary_absolute_path> <encrypt
 > [!NOTE]
 > `encryption_option` - can be 1,2,3 (xor, rsa, aes) specifying which encryption algo is used to encrypt bytecode / shellcode in the output binary.
 
+***
 
 ## Example
 <img width="1332" height="186" alt="image" src="https://github.com/user-attachments/assets/7ba8c634-53d5-4ee6-8617-c12b68ff29b1" />
@@ -31,6 +32,7 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 }
 ```
 
+*** 
 ### after obfuscation :
 <img width="406" height="517" alt="image" src="https://github.com/user-attachments/assets/2d430413-1d2a-4d61-9813-f30ff1b88740" />
 
